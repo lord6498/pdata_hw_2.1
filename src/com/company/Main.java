@@ -3,10 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	int InitialSum = 337;
-	int InitMiles;
+        int initialSum = 337;
+        int initMiles;
 
-	InitMiles=InitialSum/20;
-	System.out.println("Miles: "); System.out.println(InitMiles);
+        initMiles = initialSum / 20;
+        System.out.println("Miles: ");
+        System.out.println(initMiles);
     }
 }
